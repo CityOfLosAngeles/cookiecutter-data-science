@@ -36,4 +36,12 @@ Project Organization
 
 --------
 
+### Setting up a Conda Environment 
+
+1. `conda create --name {{my_project_name}}` 
+
+2. `source activate {{my_project_name}}
+3. `conda install --file conda-requirements.txt -c conda-forge` 
+4. `pip install requirements.txt`
+
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
